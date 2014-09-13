@@ -16,6 +16,6 @@ Run this Shiny app in R Studio by setting your working directory to the file dow
 
 Or run this directly in R Studio from Github via:
 
-  shiny::runGitHub("DataProducts", "CaryGrantAnderson")
+  `shiny::runGitHub("DataProducts", "CaryGrantAnderson")`
 
 
