@@ -1,4 +1,19 @@
-DataProducts
-============
+# DataProducts
 
-Coursera Developing Data Products (with Shiny)
+This is a Shiny application developed for the Coursera course "Developing Data Products" (with Shiny).
+Cary Grant Anderson
+9/13/2014
+
+## Purpose
+
+This Shiny apps displays the mtcars data set variable in an XY plot format with an optional display of the regression line. It is designed for easyviewing and browsing the mtcars data set variables which are grouped and separated into two categories - Performance data variables and Factor data variables. Performance data is the output facts of the data set and the Factor data are the factors that go into producing the Performance data.
+
+## Installation
+
+Run this Shiny app in R Studio by setting your working directory to the file download directory for server.R and ui.R then run the runApp() command.
+
+Or run this directly in R Studio from Github via:
+
+  shiny::runGitHub("DataProducts", "CaryGrantAnderson")
+
+
