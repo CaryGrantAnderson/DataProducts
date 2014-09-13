@@ -17,7 +17,7 @@ shinyUI(pageWithSidebar(
     helpText("This Shiny apps displays the mtcars data set",
       "variable in an XY plot format with an optional",
       "display of the regression line. It is designed",
-      "for easyviewing and browsing the mtcars data set",
+      "for easy viewing and browsing the mtcars data set",
       "variables which are grouped and separated into",
       "two categories - Performance data variables and",
       "Factor data variables.  Performance data is the",
