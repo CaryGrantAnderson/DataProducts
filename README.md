@@ -1,8 +1,7 @@
 # DataProducts
 
 This is a Shiny application developed for the Coursera course "Developing Data Products" (with Shiny).
-Cary Grant Anderson
-9/13/2014
+By Cary Grant Anderson on 9/13/2014.
 
 ## Purpose
 
