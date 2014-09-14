@@ -17,7 +17,7 @@ shinyUI(pageWithSidebar(
     helpText("This Shiny apps displays the mtcars data set",
       "variable in an XY plot format with an optional",
       "display of the regression line. It is designed",
-      "for easy viewing and browsing the mtcars data set",
+      "for easyviewing and browsing the mtcars data set",
       "variables which are grouped and separated into",
       "two categories - Performance data variables and",
       "Factor data variables.  Performance data is the",
@@ -39,7 +39,11 @@ shinyUI(pageWithSidebar(
                      "Carburetors" = "carb", 
                      "Gears" = "gear")),
     
-   checkboxInput("show_Regression_Line", "Show Regression Line", FALSE),
+    selectInput("smoother", "Smoothing Method:",
+                list("loess" = "loess", 
+                     "lm" = "lm", 
+                     "glm" = "glm", 
+                     "gam" = "gam")),
    
    helpText("This data presentation arrangement is similar",
       "to OLAP Cubes and is what many people in business",
