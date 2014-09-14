@@ -17,4 +17,11 @@ Or run this directly in R Studio from Github via:
 
   `shiny::runGitHub("DataProducts", "CaryGrantAnderson")`
 
+A R presentation is on RPubs at:
+
+  http://rpubs.com/CGrantAnderson/Browse_mtcars
+  
+And you can access the Browse mtcars Shiny App from this URL:
+
+  https://carygrantanderson.shinyapps.io/Browse_mtcars/
 
