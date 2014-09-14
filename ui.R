@@ -15,9 +15,9 @@ shinyUI(pageWithSidebar(
     h5("September 13, 2014"),
     
     helpText("This Shiny apps displays the mtcars data set",
-      "variable in an XY plot format with an optional",
-      "display of the regression line. It is designed",
-      "for easyviewing and browsing the mtcars data set",
+      "variable in an XY plot format with a display option",
+      "of four smoothing options - Loess, lm, glm, and gam.",
+      "It is designed for browsing the mtcars data set",
       "variables which are grouped and separated into",
       "two categories - Performance data variables and",
       "Factor data variables.  Performance data is the",
@@ -45,7 +45,10 @@ shinyUI(pageWithSidebar(
                      "glm" = "glm", 
                      "gam" = "gam")),
    
-   helpText("This data presentation arrangement is similar",
+    helpText("The black vertical and horizontal lines show the",
+             "mean values of both axis."),
+    
+    helpText("This data presentation arrangement is similar",
       "to OLAP Cubes and is what many people in business",
       "environments want to see and use.")
   ),
@@ -56,6 +59,11 @@ shinyUI(pageWithSidebar(
     h4(textOutput("Var_1")),
     h4(textOutput("Var_2")),
     h4(textOutput("caption")),
+    
+    h4("Factor Variable Calculations:"),
+    h6(textOutput("Min_Var")),
+    h6(textOutput("Mean_Var")),
+    h6(textOutput("Max_Var")),
     
     plotOutput("mpgPlot")
   )
